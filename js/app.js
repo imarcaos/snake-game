@@ -46,6 +46,15 @@ function drawGame() {
 
     drawScore();
 
+    // adiciona niveis conforme o número de mação comidas.
+    if (score > 2) {
+        speed = 11;
+    }
+    if (score > 5) {
+        speed = 15;
+    }
+    // end lvl
+
     setTimeout(drawGame, 1000 / speed);
 
 }
