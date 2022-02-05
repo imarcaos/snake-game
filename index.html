@@ -9,8 +9,31 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Snake Game</h1>
-    <canvas id="game" width="400" height="400"></canvas>
+    <!-- Snake Game -->				
+    <div id="game-container">
+        <div id="game-header">
+            <h2> Jogo da Cobra / Snake Game</h2>
+        </div>
+        <div id="game-main">
+            <canvas id="game">
+                Sorry. Your browser does not support HTML5 canvas element.
+            </canvas>
+        </div>
+        <div id="game-footer">
+            <p>v.01</p>
+            <p>Comandos Teclado: <br>
+                <b>Tecla W</b> = Subir  /  <b>Tecla W</b> = Descer <br>
+                <b>Tecla A</b> = Ir para a Esquerda  /  <b>Tecla D</b> = Ir para a Direita
+            </p>  
+            <p><b>Regras:</b><br>
+                - Bater nos cantos = Game Over <br>
+                - Bater na própria calda = Game Over <br>
+                - Atingiu 2 e 5 pontos no Score, muda o LVL (velocidade aumenta)
+            </p>     
+        </div>
+    </div>				
+    <!-- #Snake Game - End-->
+
     <script src="js/app.js"></script>    
 </body>
 </html>

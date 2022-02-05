@@ -1,5 +1,17 @@
+/*
+    App Snake Game
+    By iMarcaos 
+    Project Started: 03/02/2022
+    Version: 0.1-02.22
+*/
+
 const canvas = document.getElementById('game');
 const ctx = canvas.getContext('2d');
+
+canvas.style.height = "";
+canvas.style.width = "";
+canvas.setAttribute('width', 400);
+canvas.setAttribute('height', 400);  
 
 // Classe para criar as partes da cobra
 class SnakePart {
@@ -38,7 +50,7 @@ function drawGame() {
         return;
     }
 
-    clearScreen();    
+    clearScreen();
 
     checkAppleCollision();
     drawSnake();
@@ -61,7 +73,7 @@ function drawGame() {
 
 function isGameOver() {
     let gameOver = false;
-    
+
     if (xVelocity === 0 && yVelocity === 0) {
         return false;
     }
@@ -74,7 +86,7 @@ function isGameOver() {
         gameOver = true;
     }
     else if (headY < 0) {
-        gameOver = true;        
+        gameOver = true;
     }
     else if (headY === tileCount) {
         gameOver = true;
@@ -109,7 +121,7 @@ function isGameOver() {
 function drawScore() {
     ctx.fillStyle = 'white';
     ctx.font = '10px Verdana';
-    ctx.fillText('Score ' + score, canvas.width-50, 10);
+    ctx.fillText('Score ' + score, canvas.width - 50, 10);
 }
 
 function clearScreen() {
@@ -160,28 +172,28 @@ document.body.addEventListener('keydown', keyDown);
 function keyDown(event) {
 
     // up
-    if (event.key === "ArrowUp") {
+    if (event.key === "w") {
         if (yVelocity == 1) // evita que a cobra volte por ela e faz retornar ao inicio da função
             return;
         yVelocity = -1;
         xVelocity = 0;
     }
     // down
-    if (event.key === "ArrowDown") {
+    if (event.key === "s") {
         if (yVelocity == -1)
             return;
         yVelocity = 1;
         xVelocity = 0;
     }
     // left
-    if (event.key === "ArrowLeft") {
+    if (event.key === "a") {
         if (xVelocity == 1)
             return;
         yVelocity = 0;
         xVelocity = -1;
     }
     // rigth
-    if (event.key === "ArrowRight") {
+    if (event.key === "d") {
         if (xVelocity == -1)
             return;
         yVelocity = 0;
