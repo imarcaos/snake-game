@@ -2,21 +2,44 @@
 project started: 03/02/2022 (dd/mm/yyyy)
 */
 
-body {
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
-canvas {
-    box-shadow: black 20px 10px 50px;    
-}
-
-#game-header h2 {
+/*Section*/
+.game-container {
+    display: grid;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 450px;
     text-align: center;
+}
+
+
+#game-header > h2 {    
     font-size: 33px;
+    color: #1A0B38;
+}
+
+#game-main canvas {
+    box-shadow: black 20px 10px 50px;
+}
+
+#version {
+    text-align: right;
+    padding-right: 25px;
+}
+
+#game-footer {
+    display: grid;
+    grid-gap: 10px;
+    text-align: left;
+    padding: 25px;
+}
+
+#game-footer p {
+    grid-area: r1;
+    font-size: 18px;
     color: #1A0B38;
 }
