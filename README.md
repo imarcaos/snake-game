@@ -1,5 +1,7 @@
 # Snake Game - Jogo da Cobra
 
+Data Início: 03/02/2022
+
 O projeto inicial deste jogo não foi desenvolvido por mim, acompanhei um tutorial, de forma que eu possa praticar JavaScript, html e css.
 
 Até o momento apenas pode ser jogado em Computadores com teclado. Irei fazer updates no código para criar novos desafios e com a possibilidade de jogar em dispositivos móveis sem facilitar sua jogabilidade senão o jogo deixa de ser desafiador.
