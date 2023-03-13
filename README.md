@@ -1,14 +1,11 @@
 # Snake Game - Jogo da Cobra
+
+Início do projeto: 03/02/2022
+
 > Status do Projeto: Em desenvolvimento :warning:
 
-<<<<<<< HEAD
-Data Início: 03/02/2022
 
-O projeto inicial deste jogo não foi desenvolvido por mim, acompanhei um tutorial, de forma que eu possa praticar JavaScript, html e css.
-=======
-JavaScript, Css e Html Canvas 
->>>>>>> 708d1e9 (v2 - Melhoria no código dos marcadores HTML e estilização CSS e update ReadMe)
-
+***
 #### **Imagem da V1 do Snake Game - Jogo da Cobra**
 ![V1 Snake Game](https://github.com/imarcaos/snake-game/blob/master/img/snake-game-marcos-melo-640.jpg?raw=true "V1 Snake Game")
 
@@ -16,7 +13,7 @@ JavaScript, Css e Html Canvas
 
 ## Sobre
 
-O projeto inicial deste jogo não foi desenvolvido por mim, acompanhei um tutorial, de forma que eu pudesse praticar JavaScript, html e css.
+O projeto inicial deste jogo foi retirado de um tutorial em vídeo no youtube (que eu deixo a referência do vídeo abaixo), para que eu pudesse praticar JavaScript, CSS e HTML.
 
 Até o momento apenas pode ser jogado em Computadores com teclado. Irei fazer updates no código para criar novos desafios e com a possibilidade de jogar em dispositivos móveis.
 
