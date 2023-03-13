@@ -31,7 +31,7 @@ Até o momento apenas pode ser jogado em Computadores com teclado. Irei fazer up
     - Comandos do jogo (teclado):
         - W - Cima / S - Baixo / A - Esquerda / D - Direita
 2. V2-0323
-    - Melhora no código dos marcadores HTML e estilização CSS.
+    - Melhoria no código dos marcadores HTML e estilização CSS.
 ***
 ### Observação
 As versões estão classificadas da seguinte forma:
