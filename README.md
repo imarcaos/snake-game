@@ -13,9 +13,9 @@ Início do projeto: 03/02/2022
 
 ## Sobre
 
-O projeto inicial deste jogo foi retirado de um tutorial em vídeo no youtube (que eu deixo a referência do vídeo abaixo), para que eu pudesse praticar JavaScript, CSS e HTML.
+O projeto inicial deste jogo foi retirado de um tutorial em vídeo no youtube (referência do vídeo abaixo), que utilizei para praticar JavaScript, CSS e HTML.
 
-Até o momento apenas pode ser jogado em Computadores com teclado. Irei fazer updates no código para criar novos desafios e com a possibilidade de jogar em dispositivos móveis.
+Até o momento apenas pode ser jogado por teclado em computadores. Irei fazer updates no código para criar novos desafios e com a possibilidade de jogar em dispositivos móveis.
 
 
 #### Fonte: Vídeo Youtube v=7Azlj0f9vas
