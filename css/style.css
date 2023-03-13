@@ -1,45 +1,72 @@
 /*
-project started: 03/02/2022 (dd/mm/yyyy)
+App Snake Game
+By iMarcaos (github)
+Project Started: 2022-02-03
+Update: 2023-04-12
+Version: v2-0323
 */
 
-html, body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-/*Section*/
+body {
+  background: linear-gradient(rgb(93, 48, 255), rgb(121, 84, 255));
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+/* Section */
 .game-container {
     display: grid;
-    margin: 0 auto;
-    margin-top: 5%;
-    width: 450px;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 110px;
     text-align: center;
 }
 
 
-#game-header > h2 {    
+.game-header > h2 {    
     font-size: 33px;
     color: #1A0B38;
 }
 
-#game-main canvas {
-    box-shadow: black 20px 10px 50px;
+.game-main canvas {
+    box-shadow: 5px 5px 20px 3px rgb(63, 2, 121);
 }
 
-#version {
-    text-align: right;
-    padding-right: 25px;
-}
-
-#game-footer {
+.game-howto {
     display: grid;
     grid-gap: 10px;
     text-align: left;
     padding: 25px;
 }
 
-#game-footer p {
+.game-howto p {
     grid-area: r1;
     font-size: 18px;
     color: #1A0B38;
+}
+
+.version {
+    padding-right: 10px;
+    color: rgb(143, 143, 143);
+    text-align: right;
+    font-size: 0.8em;
+}
+
+/* Reponsive Section*/
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    
+    /* Section */
+    .game-container {
+        padding: 90px 0;
+        height: 100%;
+        margin: 0;
+    }
 }

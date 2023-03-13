@@ -1,28 +1,42 @@
 # Snake Game - Jogo da Cobra
+> Status do Projeto: Em desenvolvimento :warning:
 
+<<<<<<< HEAD
 Data Início: 03/02/2022
 
 O projeto inicial deste jogo não foi desenvolvido por mim, acompanhei um tutorial, de forma que eu possa praticar JavaScript, html e css.
+=======
+JavaScript, Css e Html Canvas 
+>>>>>>> 708d1e9 (v2 - Melhoria no código dos marcadores HTML e estilização CSS e update ReadMe)
 
-Até o momento apenas pode ser jogado em Computadores com teclado. Irei fazer updates no código para criar novos desafios e com a possibilidade de jogar em dispositivos móveis sem facilitar sua jogabilidade senão o jogo deixa de ser desafiador.
+#### **Imagem da V1 do Snake Game - Jogo da Cobra**
+![V1 Snake Game](https://github.com/imarcaos/snake-game/blob/master/img/snake-game-marcos-melo-640.jpg?raw=true "V1 Snake Game")
 
-Se tiver interesse em ver e jogar, já está online no meu site:  https://www.inxinet.com/jogo-da-cobra/
+<a href="http://melomarcos.com/snake-game.html" target="_blank">Ver o Snake Game em Funcionamento</a> - brevemente
 
-Algumas modificações efetuadas no código: key code -> key name.
+## Sobre
 
-### Comandos do jogo (teclado):
-W - Cima / S - Baixo / A - Esquerda / D - Direita
+O projeto inicial deste jogo não foi desenvolvido por mim, acompanhei um tutorial, de forma que eu pudesse praticar JavaScript, html e css.
 
-Neste tutorial foi utilizado Java Script, Html5 (Canvas) e Css.
+Até o momento apenas pode ser jogado em Computadores com teclado. Irei fazer updates no código para criar novos desafios e com a possibilidade de jogar em dispositivos móveis.
+
 
 #### Fonte: Vídeo Youtube v=7Azlj0f9vas
 
 ***
+## Versões
+1. V1-0222
+    - Jogo Inicial consiste em pegar o objeto vermelho que emite um som e soma 1 ponto ao score, ao atingir 3 e 6 pontos de score aumenta a velocidade da cobra, tem que evitar bater nas bordas do jogo e na cauda da cobra.
+    - Algumas modificações efetuadas no código JS: key code para key name.
+    - Comandos do jogo (teclado):
+        - W - Cima / S - Baixo / A - Esquerda / D - Direita
+2. V2-0323
+    - Melhora no código dos marcadores HTML e estilização CSS.
+***
 ### Observação
- <p>Optei por classificar por versões, conforme fizer acréscimos de funções ou melhorias significativas no código.
- Exemplo: v0.1-0820, sendo o 0.1 a versão e 0820 o mês 08 e ano 2020 .<p>
+As versões estão classificadas da seguinte forma:
 
- - v0.1-0222 - Jogo Inicial consiste em pegar o objeto vermelho que emite um som e soma 1 ponto ao score, ao atingir 3 e 6 pontos de score aumenta a velocidade da cobra, tem que evitar bater nas bordas do jogo e na cauda da cobra.
+**v1-0820**, sendo  **v1**(versão 1) seguido da data do update **-0820** (mês e ano).
 
 
-> Status do Projeto: Em desenvolvimento :warning:
+

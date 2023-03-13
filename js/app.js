@@ -1,8 +1,9 @@
 /*
-    App Snake Game
-    By iMarcaos 
-    Project Started: 03/02/2022
-    Version: 0.1-02.22
+App Snake Game
+By iMarcaos (github)
+Project Started: 2022-02-03
+Update: 2023-04-12
+Version: v2-0323
 */
 
 const canvas = document.getElementById('game');
@@ -11,7 +12,7 @@ const ctx = canvas.getContext('2d');
 canvas.style.height = "";
 canvas.style.width = "";
 canvas.setAttribute('width', 400);
-canvas.setAttribute('height', 400);  
+canvas.setAttribute('height', 400);
 
 // Classe para criar as partes da cobra
 class SnakePart {
